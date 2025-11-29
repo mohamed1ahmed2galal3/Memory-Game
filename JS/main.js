@@ -99,6 +99,7 @@ function checkMatchedBlocks(firstBlock, secondBlock) {
 
             setTimeout(() => {
                 document.getElementById("winScreen").style.display = "flex";
+                document.getElementById("win").play();
             }, 600);
         }
 
